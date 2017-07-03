@@ -2,10 +2,15 @@
     <string name="app_name">Android Developer</string>
     <string name="url">https://developer.android.com/index.html</string>
     <string name="internet_error">Failed to connect to Internet</string>
-    <!-- AdMob ad unit IDs -->
-    <string name="add_Id">ca-app-pub-7493083145656430~7981199904</string>
-    <string name="banner_home_footer">ca-app-pub-7493083145656430/1934666302</string>
-    <string name="interstitial_full_screen">ca-app-pub-7493083145656430/1515863908</string>
-    <string name="rewarded_video">ca-app-pub-7493083145656430/6276820702</string>
+    <!--&lt;!&ndash; iamdeveloper7272 email id AdMob ad unit IDs &ndash;&gt;-->
+    <!--<string name="add_Id">ca-app-pub-7493083145656430~7981199904</string>-->
+    <!--<string name="banner_home_footer">ca-app-pub-7493083145656430/1934666302</string>-->
+    <!--<string name="interstitial_full_screen">ca-app-pub-7493083145656430/1515863908</string>-->
+    <!--<string name="rewarded_video">ca-app-pub-7493083145656430/6276820702</string>-->
+
+    <!-- aroraneha8650 email id AdMob ad unit IDs -->
+    <string name="add_Id">ca-app-pub-3104530433760081~8137210258</string>
+    <string name="banner_home_footer">ca-app-pub-3104530433760081/3567409857</string>
+    <string name="interstitial_full_screen">ca-app-pub-3104530433760081/5044143059</string>
 
 </resources>
