@@ -84,11 +84,11 @@ public class HomeActivity extends AppCompatActivity {
     private void showBannerAd() {
         mAdView = (AdView) findViewById(R.id.adView);
         // For Testing Purpose
-//        AdRequest adRequest = new AdRequest.Builder()
-//                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-//                // Check the LogCat to get your test device ID
-//                .addTestDevice("9E847D99F08C0028B6613E597754B38A")
-//                .build();
+        AdRequest adRequest = new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                // Check the LogCat to get your test device ID
+                .addTestDevice("9E847D99F08C0028B6613E597754B38A")
+                .build();
         mAdView.loadAd(new AdRequest.Builder().build());
         mAdView.setAdListener(new AdListener() {
             public void onAdLoaded() {
